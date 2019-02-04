@@ -3,7 +3,7 @@ Work in Progress...
 All rights reserved
 
 This is a simple real time strategy game writed by me in C++ language with help of SFML 2.5.1 library.
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture1.png "Game overview")
+![alt text](https://github.com/Wyder7PL/Game/tree/master/Pictures/picture1.png "Game overview")
 
 Instruction:
 
@@ -14,14 +14,14 @@ Buildings with blue borders belongs to you.
 If you have a unit with hammer "Bulider", you can build buildings, to build one select one of the buttons on the GUI on the left, then press create button. It will allow you to place construction on map, all tiles under construction must be yellow in order to set the construction to build.
 A builder will go to take resources from the magazine to to the construction, so if you don't have any magazine, make sure you build it first.
 
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture2.png "Buildings")
+![alt text](https://github.com/Wyder7PL/Game/tree/master/Pictures/picture2.png "Buildings")
 
 
 You can select your units to give them orders. 
 To select a unit, press and hold left mouse button, then drag mouse over your unit and beyond, then release mouse button.
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture3.png "unit selection")
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture4.png "unit selection")
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture5.png "unit selection")
+![alt text](https://github.com/Wyder7PL/Game/tree/master/Pictures/picture3.png "unit selection")
+![alt text](https://github.com/Wyder7PL/Game/tree/master/Pictures/picture4.png "unit selection")
+![alt text]https://github.com/Wyder7PL/Game/tree/master/Pictures/picture5.png "unit selection")
 
 After you select some units, you can order them to move to specific direction, just press right mouse button 
 
