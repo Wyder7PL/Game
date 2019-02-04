@@ -28,9 +28,9 @@ After you select some units, you can order them to move to specific direction, j
 Also after you select some units, you will see some control buttons on the lower left corner:
 
 First 3 buttons exists to filter selected units 
-..* First button select only selected combat units and deselect other units
-..* Second button will leave melee units selected only
-..* Third button will leave only distance units selected
+* First button select only selected combat units and deselect other units
+* Second button will leave melee units selected only
+* Third button will leave only distance units selected
 
 Next 4 buttons are for:
 
