@@ -19,9 +19,9 @@ A builder will go to take resources from the magazine to to the construction, so
 
 You can select your units to give them orders. 
 To select a unit, press and hold left mouse button, then drag mouse over your unit and beyond, then release mouse button.
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture3.png "")
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture4.png "Game overview")
-![alt text](https://github.com/Wyder7PL/Game/Pictures/picture5.png "Game overview")
+![alt text](https://github.com/Wyder7PL/Game/Pictures/picture3.png "unit selection")
+![alt text](https://github.com/Wyder7PL/Game/Pictures/picture4.png "unit selection")
+![alt text](https://github.com/Wyder7PL/Game/Pictures/picture5.png "unit selection")
 
 After you select some units, you can order them to move to specific direction, just press right mouse button 
 
