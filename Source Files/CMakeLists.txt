@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.1)
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS "-std=c++11")
 project(Game)
-set(SFML_STATIC_LIBRARIES TRUE)
 find_package(SFML 2.5.1 COMPONENTS graphics REQUIRED)
 target_link_libraries(Game sfml-graphics sfml-window sfml-system)
 add_executable(Game main.cpp 
@@ -10,7 +9,6 @@ add_executable(Game main.cpp
 	Source/AddObject.h
 	Source/Anoyher/EffectObject.cpp
 	Source/Anoyher/EffectObject.h
-	Source/Anoyher/EffectObject.hpp
 	Source/Anoyher/Graphic/GraphicControler.cpp
 	Source/Anoyher/Graphic/GraphicControler.hpp
 	Source/Anoyher/Graphic/GraphicObject.cpp

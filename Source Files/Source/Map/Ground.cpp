@@ -10,8 +10,8 @@ Ground::Ground()
     for(uint32_t i = 0;i < ScreenWidth*ScreenHeight;i++)
         shaders.push_back(NULL);
 
-    if(!shader.loadFromFile("../../Graphic/Irontile.frag",sf::Shader::Fragment)){}
-    if(!Gold.loadFromFile("../../Graphic/Goldtile.frag",sf::Shader::Fragment)){}
+    if(!shader.loadFromFile("Graphic/Irontile.frag",sf::Shader::Fragment)){}
+    if(!Gold.loadFromFile("Graphic/Goldtile.frag",sf::Shader::Fragment)){}
 }
 
 Ground::~Ground()
