@@ -1,4 +1,4 @@
-#include "include/Control.h"
+#include "Source/Control.h"
 
 int main()
 {
@@ -12,20 +12,20 @@ int main()
 
 
     float slow = 1;
-    const float Krok = 16*slow;
+    const float Step = 16*slow;
     float delta = 0.0f;
-    float stalokrokowa = 0.0f;
-    float ostatni = clock() - 16*slow+1;
+    float ConstStep = 0.0f;
+    float last = clock() - 16*slow+1;
     do
     {
 
-        delta = clock() - ostatni;
-        ostatni+=delta;
-        stalokrokowa+=delta;
-        while(stalokrokowa > Krok&&!Keyboard::Exit()&&RoundEnd::RoundEndState!=1)
+        delta = clock() - last;
+        last+=delta;
+        ConstStep+=delta;
+        while(ConstStep > Step&&!Keyboard::Exit()&&RoundEnd::RoundEndState!=1)
         {
             con.Step();
-            stalokrokowa -= Krok;
+            ConstStep -= Step;
             frames = clock();
         }
     }while(!Keyboard::Exit()&&RoundEnd::RoundEndState!=1);
