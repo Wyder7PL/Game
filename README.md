@@ -3,6 +3,9 @@ Work in Progress...
 All rights reserved
 
 This is a simple real time strategy game writed by me in C++ language with help of SFML 2.5.1 library.
+
+You can download build version for Windows [here](http://www.mediafire.com/file/6mhe0xrs27zgl56/Game.rar/file)
+
 ![alt text](https://raw.githubusercontent.com/Wyder7PL/Game/master/Pictures/picture1.png "Game overview")
 
 Instruction:
